@@ -170,14 +170,14 @@ public class TurtleSoup {
     public static void drawPersonalArt(Turtle turtle,int sidelength) {
     	
     	PenColor k = null;
-    	turtle.turn(180);
+    	turtle.turn(110);
     	
-    	turtle.color(k.RED); 
+    	turtle.color(k.BLUE); 
     	turtle.forward(sidelength);
-    	for(int i = 1; i < 24; i++)
+    	for(int i = 2; i < 114; i++)
     	{
     		turtle.turn(-215);
-            turtle.color(k.RED);                    
+            turtle.color(k.GREEN);                    
     		turtle.forward(sidelength);
     		
     	}
